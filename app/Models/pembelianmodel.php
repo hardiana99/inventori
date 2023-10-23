@@ -4,11 +4,11 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class PenjualanModel extends Model
+class pembelianmodel extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'penjualan';
-    protected $primaryKey       = 'id_penjualan';
+    protected $table            = 'pembelian';
+    protected $primaryKey       = 'id_pembelian';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
